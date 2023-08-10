@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": { "first": "Welcome", "second": "infinite168design" },
+    "content": {
+      "first": "รับออกแบบตกแต่งภายใน",
+      "second": "สร้างสรรค์หลากหลายสไตล์เพื่อแสดงถึงความเป็นตัวคุณ"
+    },
+    "image": "/assets/img/contentIndex/index01.png"
+  },
+  {
+    "id": 2,
+    "title": { "first": "style", "second": "modern luxury" },
+    "content": {
+      "first": "การออกแบบที่สะท้อนถึงความหรูหราด้วยการใช้วัสดุเกรดพรีเมี่ยม",
+      "second": "ตกแต่งด้วยสแตนเลสเพิ่มความเงา ให้ห้องดูสวยหรูไม่ซ้ำใคร"
+    },
+    "image": "/assets/img/contentIndex/index02.png"
+  },
+  {
+    "id": 3,
+    "title": { "first": "style", "second": "modern classic luxury" },
+    "content": {
+      "first": "",
+      "second": ""
+    },
+    "image": "/assets/img/contentIndex/index03.png"
+  },
+  {
+    "id": 4,
+    "title": { "first": "style", "second": "modern loft" },
+    "content": {
+      "first": "",
+      "second": ""
+    },
+    "image": "/assets/img/contentIndex/index04.png"
+  },
+  {
+    "id": 5,
+    "title": { "first": "style", "second": "modern minimal" },
+    "content": {
+      "first": "",
+      "second": ""
+    },
+    "image": "/assets/img/contentIndex/index05.jpg"
+  }
+]
