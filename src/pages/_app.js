@@ -36,7 +36,6 @@ function MyApp({ Component, pageProps }) {
         src="/assets/js/simpleParallax.min.js"
       ></Script>
       <Script id="isotope" src="/assets/js/isotope.pkgd.min.js"></Script>
-
       <Script src="/assets/js/main.js" id="init" strategy="lazyOnload"></Script>
     </>
   );

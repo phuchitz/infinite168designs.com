@@ -6,10 +6,10 @@ const Services5 = () => {
   return (
     <section className="services-col section-padding">
       <div className="container">
-        <div className="main-header text-center">
+        {/* <div className="main-header text-center">
           <h3>การบริการ</h3>
           <div className="tex-bg">Services</div>
-        </div>
+        </div> */}
         <div className="row bord-box wow fadeInUp">
           <div className="col-lg-4 col-md-5 item-bx">
             <span className="icon flaticon-home"></span>
@@ -41,9 +41,9 @@ const Services5 = () => {
           </div>
           <div className="col-lg-4 col-md-5 item-bx">
             <span className="icon flaticon-interior-design"></span>
-            <h6 className="mb-10">Mood&Tone</h6>
-            <h7 className="mb-5">ภาพบรรยกาศตัวอย่าง</h7>
-            <Link href="/service/moodandtone" passHref>
+            <h6 className="mb-30">Mood&Tone</h6>
+            <h7 className="mb-10">ภาพบรรยกาศตัวอย่าง</h7>
+            {/* <Link href="/service/moodandtone" passHref>
               <h5>
                 <a className="more mt-30 do-detail">
                   <button className="btn btn-outline-light">
@@ -51,7 +51,10 @@ const Services5 = () => {
                   </button>
                 </a>
               </h5>
-            </Link>
+            </Link> */}
+            <br />
+            <br />
+            <br />
           </div>
           <div className="col-lg-4 col-md-5 item-bx">
             <span className="icon flaticon-computer"></span>

@@ -1,7 +1,6 @@
 import React from 'react'
 import MainLayout from '../../layouts/main'
 import PageHeader from '../../components/Page-header'
-import Image from 'next/image'
 
 function Modernminimal() {
     return (

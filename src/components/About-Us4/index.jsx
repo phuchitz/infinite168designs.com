@@ -7,16 +7,17 @@ const AboutUs4 = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="about-content">
-              <div className="title-about-text">
-                <h5>
+              <div className="title-about-text ">
+                <h5 className="">
                   บริษัท อินฟินิท 168 ดีไซน์ แอนด์ คอนสตรัคชั่น <br />
-                  <br />
+                  <div className="text-break text-wrap">
                   เป็นบริษัทรับออกแบบตกแต่งภายใน บ้าน คอนโด ร้านค้า สำนักงาน
                   บริการครบวงจร(TurnKey Service) โดยทีม อินทีเรียดีไซน์เนอร์
                   ที่สามารถสร้างความโดดเด่น
                   และสร้างเอกลักษณ์ของงานให้สอดคล้องกับ ผู้อยู่อาศัย
                   ประกอบกับการสร้างงานจากทีมช่างมืออาชีพ ประสบการณ์การทำงานมากกว่า
                   10 ปี
+                  </div>
                 </h5>
               </div>
             </div>

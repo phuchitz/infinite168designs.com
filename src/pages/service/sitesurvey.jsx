@@ -31,7 +31,7 @@ const Sitesurvey = ({ vis }) => {
               <div className="col-md-6 item">
                 <div className="item ">
                   <div className="img ">
-                    <img src="/assets/img/service/sitesurvey/01.jpg" alt="" />
+                    <img src="/assets/img/service/sitesurvey/001.jpg" alt="" />
                   </div>
                   <div className={`cont ${vis ? "vis" : ""}`}></div>
                 </div>
@@ -42,9 +42,9 @@ const Sitesurvey = ({ vis }) => {
                 <div className="row txt-container">
                   <div className="col-lg-10">
                     <div className="txt-cont align-middle">
-                      <div className="title-about-text">
+                      {/* <div className="title-about-text">
                         <h5>โปรโมชั่นพิเศษ ฟรี!! สำรวจ</h5>
-                      </div>
+                      </div> */}
                       <br />
                       <p className="mb-20 ">
                         • อินฟินิท 168 ดีไซน์
