@@ -10,7 +10,7 @@ const PageHeaderNew = ({ title, fullPath, image, desc }) => {
       style={{
         backgroundImage: `url(${!image ? "/assets/img/pg1.jpg" : image})`,
       }}
-      data-overlay-dark="5"
+      data-overlay-dark="7"
     >
       <div className="container">
         <div className="row">
