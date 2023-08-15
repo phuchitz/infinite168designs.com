@@ -5,6 +5,7 @@ import AboutUs6 from "../../components/About-Us6";
 import Services5 from "../../components/Services5";
 import Portfolio2 from "../../components/Portfolio2";
 import IntroWithHorizontal2 from "../../components/Intro-with-horizontal2";
+import Blogs4 from "../../components/Blogs4";
 
 const Home5 = () => {
   React.useEffect(() => {
@@ -20,7 +21,7 @@ const Home5 = () => {
       <Video />
       {/* <Team2 />
       <Testimonials1 bigTitle /> */}
-      {/* <Blogs4 /> */}
+      <Blogs4 />
     </MainLayout>
   );
 };

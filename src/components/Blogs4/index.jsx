@@ -8,7 +8,7 @@ const Blogs4 = () => {
     <section className="cls-blog section-padding position-re">
       <div className="container">
         <div className="main-header text-center">
-          <h3>Interesting articles.</h3>
+          <h3>Knowledge</h3>
           <div className="tex-bg">Blog</div>
         </div>
         <div className="row">
