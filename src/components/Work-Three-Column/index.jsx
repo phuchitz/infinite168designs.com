@@ -26,6 +26,7 @@ const WorkThreeColumn = () => {
             </div>
           </div>
           <div className="row gallery">
+
             {/* Modern Luxury */}
             <div className="col-lg-4 col-md-6 items modernlux">
               <div className="item">
@@ -41,7 +42,7 @@ const WorkThreeColumn = () => {
                   <span>บางกอกบูเลอวาร์ด</span>
                   <h5>ดอนเมือง แจ้งวัฒนะ</h5>
                   <span>
-                    <Link href="/work/mlux1" passHref>
+                    <Link href="/work/modernluxury-1" passHref>
                       <a className="more mt-30 do-detail">
                         อ่านต่อ <i className="fas fa-chevron-right"></i>
                       </a>
@@ -65,7 +66,31 @@ const WorkThreeColumn = () => {
                   <span>โครงการ แกรนดิโอ</span>
                   <h5>รามอินทรา วงแหวน</h5>
                   <span>
-                    <Link href="/work/mlux2" passHref>
+                    <Link href="/work/modernluxury-2" passHref>
+                      <a className="more mt-30 do-detail">
+                        อ่านต่อ <i className="fas fa-chevron-right"></i>
+                      </a>
+                    </Link>
+                  </span>
+                </div>
+              </div>
+            </div>
+            {/* ศุภาลัยเอเลแกนซ์ บรม121 */}
+            <div className="col-lg-4 col-md-6 items modernlux">
+              <div className="item">
+                <div className="img">
+                  {/* <img src="/assets/img/blog/blog1.png" alt="" /> */}
+                  <Image
+                    src="/assets/img/works/modernluxury/03/01.png"
+                    width={800}
+                    height={637}
+                  />
+                </div>
+                <div className="cont vis">
+                  <span>ศุภาลัยเอเลแกนซ์</span>
+                  <h5>บรม121</h5>
+                  <span>
+                    <Link href="/work/modernluxury-3" passHref>
                       <a className="more mt-30 do-detail">
                         อ่านต่อ <i className="fas fa-chevron-right"></i>
                       </a>
@@ -89,7 +114,53 @@ const WorkThreeColumn = () => {
                   <span>บางกอกบูเลอวาร์ด</span>
                   <h5>เพชรเกษม-ปิ่นเกล้า</h5>
                   <span>
-                    <Link href="/work/mc1" passHref>
+                    <Link href="/work/modernclassic-1" passHref>
+                      <a className="more mt-30 do-detail">
+                        อ่านต่อ <i className="fas fa-chevron-right"></i>
+                      </a>
+                    </Link>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 items modernclassic">
+              <div className="item">
+                <div className="img">
+                <Image
+                    src="/assets/img/works/modernclassicluxury/02/01.png"
+                    width={800}
+                    height={637}
+                  />
+                </div>
+                <div className="cont vis">
+                  <span>ลัดดารมย์ อิลิแกนซ์</span>
+                  <h5>วงแหวน-สาทร</h5>
+                  <span>
+                    <Link href="/work/modernclassic-2" passHref>
+                      <a className="more mt-30 do-detail">
+                        อ่านต่อ <i className="fas fa-chevron-right"></i>
+                      </a>
+                    </Link>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 items modernclassic">
+              <div className="item">
+                <div className="img">
+                <Image
+                    src="/assets/img/works/modernclassicluxury/03/07.png"
+                    width={800}
+                    height={637}
+                  />
+                </div>
+                <div className="cont vis">
+                  <span>ภัสสร พุทธมณฑลสาย2</span>
+                  <h5>บางแวก</h5>
+                  <span>
+                    <Link href="/work/modernclassic-3" passHref>
                       <a className="more mt-30 do-detail">
                         อ่านต่อ <i className="fas fa-chevron-right"></i>
                       </a>
@@ -113,7 +184,7 @@ const WorkThreeColumn = () => {
                   <span>Infinite168Design</span>
                   <h5>สำนักงาน</h5>
                   <span>
-                    <Link href="/work/mloft1" passHref>
+                    <Link href="/work/modernloft-1" passHref>
                       <a className="more mt-30 do-detail">
                         อ่านต่อ <i className="fas fa-chevron-right"></i>
                       </a>
@@ -137,7 +208,7 @@ const WorkThreeColumn = () => {
                   <span>บางกอกบูเลอวาร์ด</span>
                   <h5>รามอินทรา-เสรีไทย</h5>
                   <span>
-                    <Link href="/work/mmini1" passHref>
+                    <Link href="/work/modernminimal-1" passHref>
                       <a className="more mt-30 do-detail">
                         อ่านต่อ <i className="fas fa-chevron-right"></i>
                       </a>
@@ -146,6 +217,54 @@ const WorkThreeColumn = () => {
                 </div>
               </div>
             </div>
+            {/* The strand thonglor */}
+            <div className="col-lg-4 col-md-6 items modernminimal">
+              <div className="item">
+                <div className="img">
+                <Image
+                    src="/assets/img/works/modernminimal/02/bg.png"
+                    width={800}
+                    height={637}
+                  />
+                </div>
+                <div className="cont vis">
+                  <span>The Strand</span>
+                  <h5>ทองหล่อ</h5>
+                  <span>
+                    <Link href="/work/modernminimal-2" passHref>
+                      <a className="more mt-30 do-detail">
+                        อ่านต่อ <i className="fas fa-chevron-right"></i>
+                      </a>
+                    </Link>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Modern Scandinavian */}
+            <div className="col-lg-4 col-md-6 items">
+              <div className="item">
+                <div className="img">
+                <Image
+                    src="/assets/img/works/scandinavian/01.png"
+                    width={800}
+                    height={637}
+                  />
+                </div>
+                <div className="cont vis">
+                  <span>นันทวัน ปิ่นเกล้า</span>
+                  <h5>กาญจนาภิเษก</h5>
+                  <span>
+                    <Link href="/work/scandinavian" passHref>
+                      <a className="more mt-30 do-detail">
+                        อ่านต่อ <i className="fas fa-chevron-right"></i>
+                      </a>
+                    </Link>
+                  </span>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
